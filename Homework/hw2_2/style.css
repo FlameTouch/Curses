@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center; /* горизонтальне вирівнювання */
+    align-items: center;     /* вертикальне вирівнювання */
+    background-color: #ffe4c4;
+}
+
+.container {
+    display: flex;
+    gap: 30px;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    transition: all 0.3s ease;
+}
+
+.box:hover {
+    border-radius: 50%;
+    background-color: gray;
+}
+h1{
+    margin-right: 20px;
+}

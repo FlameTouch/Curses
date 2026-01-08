@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    font-family: Georgia, serif;
+    background-color: #4f6f52;
+    padding: 30px;
+}
+
+.months {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.month {
+    background-color: #dcebd3;
+    width: 260px;
+    padding: 20px;
+    border-radius: 6px;
+    box-sizing: border-box;
+    transition: transform 0.3s ease;
+}
+.month:hover {
+    transform: scale(1.05);
+}
+.month h2 {
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.month p {
+    margin: 10px 0;
+}
