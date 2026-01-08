@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+}
+
+.container {
+    max-width: 900px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.block {
+    background-color: #2a6fb8;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    height: 140px;
+}
+
+.widgets-row {
+    display: flex;
+    gap: 20px;
+}
+
+.small-block {
+    background-color: #1c4a7c;
+    color: white;
+    flex: 1;
+    height: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+}
+
+.contact {
+    height: 200px;
+}

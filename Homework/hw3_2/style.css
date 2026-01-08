@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+section {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.top {
+    background-color: #ffc0cb;
+    color: #000;
+}
+
+.bottom {
+    background-color: #222;
+    color: #fff;
+}
+
+h2 {
+    margin-bottom: 20px;
+    font-size: 28px;
+}
+
+p {
+    max-width: 700px;
+    line-height: 1.6;
+    font-size: 14px;
+}
