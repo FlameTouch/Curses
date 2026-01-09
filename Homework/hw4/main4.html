@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Frame 4</title>
+    <style>
+        body{
+            margin:0;
+        }
+        header{
+            height: 20vh;
+            background: #8D8484;
+        }
+        main{
+            display: flex;
+        }
+        section{
+            width: 73vw;
+            height: 20vh;
+        }
+        .content1{
+            background: #776969;
+        }
+        .content2{
+            background: #643030;
+        }
+        .content3{
+            background: #441818;
+        }
+        aside{
+            height: 30vh;
+            width: 27vw;
+        }
+        .spam1{
+            background: #937575;
+        }
+        .spam2{
+            background: #644C4C;
+        }
+        footer{
+            height: 20vh;
+            background: #BDBDBD;
+        }
+        header, footer, section, aside{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 25px;
+        }
+        section, aside{
+            color: white;
+        }
+    </style>
+</head>
+<body>
+<header>
+    <p>Header</p>
+</header>
+<main>
+    <div class="content">
+        <section class="content1"><p>Content-1</p></section>
+        <section class="content2"><p>Content-2</p></section>
+        <section class="content3"><p>Content-3</p></section>
+    </div>
+    <div class="spam">
+        <aside class="spam1"><p>Spam-1</p></aside>
+        <aside class="spam2"><p>Spam-2</p></aside>
+    </div>
+</main>
+<footer><p>Footer</p></footer>
+</body>
+</html>
