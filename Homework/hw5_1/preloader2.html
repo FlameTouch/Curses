@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Preloader 2</title>
+    <style>
+        body{
+            margin:0;
+            height:100vh;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            background:#0f172a;
+        }
+        circle{
+            fill:none;
+            stroke:#22c55e;
+            stroke-width:6;
+            stroke-dasharray:314;
+            stroke-dashoffset:314;
+            animation:draw 2s linear infinite;
+        }
+        @keyframes draw{
+            0%{
+                stroke-dashoffset:314;
+            }
+
+            100%{
+                stroke-dashoffset:0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <svg width="120" height="120">
+        <circle cx="60" cy="60" r="50"/>
+    </svg>
+</body>
+</html>

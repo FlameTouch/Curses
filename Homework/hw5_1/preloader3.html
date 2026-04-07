@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Preloader 3</title>
+    <style>
+        body{
+            margin:0;
+            height:100vh;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            background:#0f172a;
+        }
+        .loader{
+            position:relative;
+            width:120px;
+            height:120px;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+        }
+        .heart{
+            font-size:60px;
+            animation:heartbeat 1.2s infinite;
+            z-index:2;
+        }
+        .pulse{
+            position:absolute;
+            width:120px;
+            height:120px;
+            border-radius:50%;
+            border:3px solid #ef4444;
+            animation:pulse 1.5s infinite;
+        }
+        .pulse:nth-child(2){
+            animation-delay:0.5s;
+        }
+        @keyframes heartbeat{
+            0%{transform:scale(1)}
+            25%{transform:scale(1.2)}
+            40%{transform:scale(1)}
+            60%{transform:scale(1.15)}
+            100%{transform:scale(1)}
+        }
+        @keyframes pulse{
+            0%{
+                transform:scale(0.6);
+                opacity:1;
+            }
+            100%{
+                transform:scale(1.8);
+                opacity:0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="loader">
+        <div class="pulse"></div>
+        <div class="pulse"></div>
+        <div class="heart"><IMG src="img/heart.png" width="70px" height="70px" align="center"></div>
+    </div>
+</body>
+</html>
