@@ -1,0 +1,40 @@
+.wrap{
+    background-color: #3F50E7;
+    color: #7ed6df;
+    font-size: 20px;
+    width: 100px;
+    height: 100px;
+}
+.beta{
+    background-color: #4f6f52;
+    color: #BDBDBD;
+    font-size: 10px;
+    width: 100px;
+    height: 100px;
+}
+.alpha{
+    background-color: #8E88C1;
+    color: antiquewhite;
+    font-size: 23px;
+    width: 100px;
+    height: 100px;
+}
+.collapse{
+    background-color: #95CB7C;
+    color: darkolivegreen;
+    font-size: 15px;
+    width: 100px;
+    height: 100px;
+}
+
+
+.duration{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding-left: 20px;
+}
+.MHDuration{
+    width: 100px;
+    height: 30px;
+}
